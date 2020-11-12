@@ -1,0 +1,113 @@
+/* utility class */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.fl{
+  float: left;
+}
+
+.fr{
+  float: right;
+}
+
+.center{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button{
+    height: 50px;
+    min-width: 100px;
+    padding: 0 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0;
+    line-height: 50px;
+}
+
+.button-a {
+  border: 2px #fe775a solid;
+  color: #fe775a;
+}
+
+.button-b {
+  background: #fe775a;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* /utility class */
+
+/* insieme-navbar-1-2 */
+
+.container-nav{
+  height: 70px;
+  width:100%;
+  border-bottom: 1px solid #32495B;
+  line-height: 70px;
+}
+
+.insieme-navbar-1-2{
+ width: 75%;
+}
+
+.box1-navbar-1{
+ padding-right: 20px;
+}
+
+/* /insieme-navbar-1-2 */
+/* container header */
+
+.container-header{
+  height: 700px;
+  width: 75%;
+  padding-top: 15px;
+  background-image: url(../img/jumbotron.png);
+}
+
+.menu-navbar3 > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu-navbar3 > ul > li {
+  float: left;
+  padding-left: 15px;
+}
+
+.box-slogan{
+  max-width: 400px;
+  position: relative;
+  top: 200px;
+  text-align: left;
+}
+
+h1{
+ font-size: 40px;
+}
+
+/* main */
+
+.container-main{
+  width: 50%;
+}
+
+h2{
+  font-size: 25px;
+  padding-bottom: 20px;
+}
