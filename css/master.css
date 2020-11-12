@@ -113,7 +113,8 @@ h2{
 }
 
 .box2-main-left{
-  width: 150px ;
+  width: 50% ;
+  display: inline-block;
 }
 
 .pc{
@@ -122,4 +123,10 @@ h2{
 
 .box1-main{
   padding-bottom: 100px
+}
+
+.box2-main-right{
+  width: 50% ;
+  display: inline-block;
+  text-align: left;
 }
