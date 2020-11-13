@@ -69,6 +69,10 @@ li{
 .br{
   border-right: 1px solid white;
 }
+
+p{
+  line-height: 25px;
+}
 /* /utility class */
 
 /* insieme-navbar-1-2 */
@@ -248,4 +252,28 @@ h2{
 .info-box > h3{
   font-size: 30px;
   padding-bottom: 30px;
+}
+
+.container-under-gradient2{
+  margin-top: 80px;
+  height: 400px;
+  width: 75%;
+  text-align: left;
+}
+
+.box-near-sciura{
+ width: 400px;
+}
+
+.box-near-sciura > h3{
+  font-size: 30px;
+}
+
+.box-near-sciura > p{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.container-under-gradient2 > img{
+  height: 500px;
 }
