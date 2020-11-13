@@ -46,6 +46,11 @@
   color: #fff;
 }
 
+.button-c{
+  background: #fff;
+  color: #2D3E50;
+}
+
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -72,6 +77,8 @@ li{
 
 p{
   line-height: 25px;
+  color: #2D3E50;
+
 }
 /* /utility class */
 
@@ -256,7 +263,7 @@ h2{
 
 .container-under-gradient2{
   margin-top: 80px;
-  height: 400px;
+  height: 600px;
   width: 75%;
   text-align: left;
 }
@@ -277,3 +284,73 @@ h2{
 .container-under-gradient2 > img{
   height: 500px;
 }
+
+footer{
+  width: 100%;
+  height: 700px;
+  background-color: #2D3E50;
+}
+
+.container-footer{
+
+  color: #fff;
+  display: inline-block;
+}
+
+.container-footer > .fl > ul{
+  margin-top: 20px;
+  margin-right: 60px;
+}
+
+.container-footer > .fl > ul > li{
+padding-top: 20px;
+text-align: left
+}
+
+.insiemeico{
+  height: 10px;
+  width: 220px;
+}
+
+.insiemeico > i{
+  padding-right: 20px;
+}
+
+.menu-navbar4{
+  height: 50px;
+  width: 75%;
+  color: #fff;
+  border-bottom: 1px solid white;
+  margin-top: 200px;
+}
+
+.menu-navbar4 > ul {
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  display: inline-block;
+}
+
+.menu-navbar4 > ul > li {
+  float: left;
+  padding-left: 15px;
+}
+  .container-chiusura{
+    width: 75%;
+    margin-top: 30px;
+  }
+
+  .chiusura-1{
+    width: 200px;
+    color: white;
+  }
+
+  .chiusura-2{
+    color: white;
+  }
+
+  .chiusura-2 > ul > li{
+    padding-right: 10px;
+  }
