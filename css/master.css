@@ -66,6 +66,9 @@ li{
   margin: 20px auto;
 }
 
+.br{
+  border-right: 1px solid white;
+}
 /* /utility class */
 
 /* insieme-navbar-1-2 */
@@ -157,8 +160,7 @@ h2{
 }
 
 .element-row3{
-  margin-top: 50px;
-  margin-right: 20px;
+  margin-top: 60px;
 }
 
 .box-column-2{
@@ -168,6 +170,7 @@ h2{
 
 .row1{
   margin-top: 300px;
+  height: 520px;
 }
 
 .box-column-3{
@@ -175,3 +178,74 @@ h2{
 }
 
 /* box gradient */
+
+.gradient{
+  width: 100%;
+  background-image: linear-gradient(to right, #29a7a1 , #00d4ff, #438386, #469e84);
+  text-align: center;
+  height: 600px;
+}
+
+.container-gradient{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.white{
+  color: #fff;
+  padding-top: 25px;
+  font-size: 40px;
+}
+
+.p-gradient{
+  color: white;
+}
+
+.row1-gradient{
+  margin-top: 50px;
+  height:150px;
+  text-align: center;
+  display: inline-block;
+}
+
+.box{
+  width: 250px;
+  height: 150px;
+  color: white;
+  border-bottom: 1px solid white;
+  padding: 30px;
+}
+
+
+.number{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.row2-gradient{
+  height:150px;
+  text-align: center;
+  display: inline-block;
+}
+
+.row2-gradient-1{
+  border-bottom: none;
+}
+
+/* under gradient */
+
+.container-under-gradient{
+  margin-top: 30px;
+  height: 200px;
+  width: 75%;
+}
+
+.info-box{
+  width: 200px;
+  margin-top: 20px;
+}
+
+.info-box > h3{
+  font-size: 30px;
+  padding-bottom: 30px;
+}
