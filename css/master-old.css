@@ -66,7 +66,6 @@ li{
 .hr::after {
   content: '';
   display: inherit;
-  width: 100%;
   border-bottom: 1px solid black;
   margin: 20px auto;
 }
@@ -86,13 +85,12 @@ p{
 
 .container-nav{
   height: 70px;
-  width:100%;
   border-bottom: 1px solid #32495B;
   line-height: 70px;
 }
 
 .insieme-navbar-1-2{
- width: 75%;
+ width: 1200px;
 }
 
 .box1-navbar-1{
@@ -104,7 +102,7 @@ p{
 
 .container-header{
   height: 700px;
-  width: 75%;
+  width: 1200px;;
   padding-top: 15px;
   background-image: url(../img/jumbotron.png);
 }
@@ -135,7 +133,7 @@ h1{
 /* main */
 
 .container-main{
-  width: 50%;
+  width:1200px;
 }
 
 h2{
@@ -144,7 +142,7 @@ h2{
 }
 
 .box2-main-left{
-  width: 30% ;
+  width: 400px ;
   display: inline-block;
 }
 
@@ -157,13 +155,13 @@ h2{
 }
 
 .box2-main-right{
-  width: 50% ;
+  width: 400px ;
   display: inline-block;
   text-align: left;
 }
 .box-column-1{
-  width: 30%;
-  margin-right: 2%;
+  width: 380px;
+  margin-right: 5px;
 }
 
 .list{
@@ -175,8 +173,8 @@ h2{
 }
 
 .box-column-2{
-  width: 30%;
-  margin-right: 2%;
+  width: 380px;
+  margin-right: 5px;
 }
 
 .row1{
@@ -185,20 +183,19 @@ h2{
 }
 
 .box-column-3{
-  width: 30%;
+  width: 380px;
 }
 
 /* box gradient */
 
 .gradient{
-  width: 100%;
   background-image: linear-gradient(to right, #29a7a1 , #00d4ff, #438386, #469e84);
   text-align: center;
   height: 600px;
 }
 
 .container-gradient{
-  width: 75%;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -248,7 +245,7 @@ h2{
 .container-under-gradient{
   margin-top: 30px;
   height: 200px;
-  width: 75%;
+  width: 1200px;
 }
 
 .info-box{
@@ -264,7 +261,7 @@ h2{
 .container-under-gradient2{
   margin-top: 80px;
   height: 600px;
-  width: 75%;
+  width: 1200px;
   text-align: left;
 }
 
@@ -286,13 +283,12 @@ h2{
 }
 
 footer{
-  width: 100%;
   height: 700px;
   background-color: #2D3E50;
 }
 
 .container-footer{
-
+  width: 1200px;
   color: #fff;
   display: inline-block;
 }
@@ -318,7 +314,7 @@ text-align: left
 
 .menu-navbar4{
   height: 50px;
-  width: 75%;
+  width: 1200px;
   color: #fff;
   border-bottom: 1px solid white;
   margin-top: 200px;
@@ -338,7 +334,7 @@ text-align: left
   padding-left: 15px;
 }
   .container-chiusura{
-    width: 75%;
+    width: 1200px;
     margin-top: 30px;
   }
 
